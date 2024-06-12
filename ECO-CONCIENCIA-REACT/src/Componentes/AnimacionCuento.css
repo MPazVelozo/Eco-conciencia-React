@@ -1,0 +1,25 @@
+
+.texto-cuento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+  }
+.musica-cuento {
+    width: 100px;
+    height: 100px;
+    animation: move 2s infinite alternate;
+  }
+  
+  @keyframes move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+  }
+  
+  .moving-image {
+    animation: move 2s infinite alternate;
+  }
+  
+ 
+ 
+  
