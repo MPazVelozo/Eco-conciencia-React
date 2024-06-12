@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;   
+}
+  
+body {
+    background-image: url("../assets/v211_31.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    
+    
+  
