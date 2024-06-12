@@ -1,0 +1,21 @@
+
+.btn {
+    background-color: #c591c5; 
+    color: #ffffff; 
+    border: none;
+    margin: 7px 0;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+ 
+.btn-group-vertical {
+    background-color: #fcb0ef; 
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column; 
+    top: 130px;
+      
+}
+  
+ 

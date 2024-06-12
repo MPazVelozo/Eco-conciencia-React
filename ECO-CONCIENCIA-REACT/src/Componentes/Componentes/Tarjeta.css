@@ -1,0 +1,28 @@
+
+.card {
+    background-image: url(https://i.pinimg.com/736x/1a/aa/b3/1aaab3e6643cdf5b0779ddc3640389da.jpg);
+    background-size: 250% auto;
+}
+.card-img-top {
+    width: 100px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.card-jump {
+    animation: jump 1s infinite; 
+}
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
