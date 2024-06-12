@@ -1,0 +1,32 @@
+.another-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(141, 124, 124);
+    padding: 10px;
+    text-align: center;
+    border: 0px solid rgb(120, 110, 110);
+    margin-top: 150px;
+    top: 50px;
+}
+.card-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+.card-button {
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    border: 100px;
+    border-radius: 20px;
+    background-color: rgb(89, 182, 243);  
+    display: inline-block;
+    padding: 5px;  
+    width: 100%;  
+    max-width: 200px;  
+    text-align: center;
+    text-decoration: none; 
+    box-sizing: border-box; 
+}
+  

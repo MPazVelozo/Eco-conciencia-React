@@ -1,0 +1,26 @@
+
+card {
+    background-image: url(https://i.pinimg.com/736x/1a/aa/b3/1aaab3e6643cdf5b0779ddc3640389da.jpg);
+    background-size: 250% auto;
+}
+.card-img-topm {
+    width: 160px;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.card-text {
+    text-align: justify;
+}
+.btn-link{
+    display: block;
+    margin: 10px auto;
+    background-color: #9ecfe6; 
+    color: #5a5a5a; 
+    text-align: center;
+    text-decoration: none;
+    
+}
