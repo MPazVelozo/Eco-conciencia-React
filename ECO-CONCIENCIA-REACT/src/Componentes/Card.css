@@ -18,9 +18,15 @@
 .card-button {
     color: white;
     font-family: 'Luckiest Guy', cursive;
-    width: 180px;
-    border: 0px;
-    border-radius: 15px;
+    border: 100px;
+    border-radius: 20px;
     background-color: rgb(89, 182, 243);  
+    display: inline-block;
+    padding: 5px;  
+    width: 100%;  
+    max-width: 200px;  
+    text-align: center;
+    text-decoration: none; 
+    box-sizing: border-box; 
 }
   

@@ -23,7 +23,7 @@ function Inicio() {
         <Card  button="APRENDIZAJE" imagen={v78_1133}/>
         <Card  button="EDUCACIÓN" imagen={v78_114}/>
         <Card  button="VIDEOS" imagen={v78_115}/>
-        <Card  button="CUENTOS" imagen={v489_3}/>
+        <Card  to="/Cuentos" button="CUENTOS" imagen={v489_3}/>
         <Card  button="CANCIONES" imagen={v497_130}/>
     </div>
     </div>
