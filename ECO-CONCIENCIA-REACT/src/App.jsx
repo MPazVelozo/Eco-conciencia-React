@@ -4,6 +4,7 @@ import Inicio from './Vistas/Inicio'
 import Objetivos from './Vistas/Objetivos'
 import Cuentos from './Vistas/Cuentos'
 import Quehacemos from './Vistas/Quehacemos'
+import Canciones from './Vistas/Canciones'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Route path="/Objetivos" element={<Objetivos/>}/>
     <Route path="/Cuentos" element={<Cuentos/>}/>
     <Route path="/Quehacemos" element={<Quehacemos/>}/>
+    <Route path="/Canciones" element={<Canciones/>}/>
 
     </Routes>
     </BrowserRouter>

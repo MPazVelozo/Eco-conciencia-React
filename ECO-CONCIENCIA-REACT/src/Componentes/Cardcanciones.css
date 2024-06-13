@@ -1,0 +1,24 @@
+/* Estilos para las tarjetas */
+.cardcanciones {
+  position: relative;
+  width: 280px; /* Reducción en el ancho */
+  height: 230px; /* Reducción en la altura */
+  border-radius: 8px;
+ 
+}
+
+.cardcanciones img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardcanciones h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
