@@ -1,0 +1,11 @@
+.animated-image {
+    animation: moveImage 2s infinite alternate; }
+  
+  @keyframes moveImage {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(30px); 
+    }
+  }

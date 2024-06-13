@@ -1,0 +1,25 @@
+/* Estilos para las tarjetas */
+.cardcanciones {
+  position: relative;
+  width: 280px;
+  height: 230px;
+  border-radius: 8px;
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+  cursor: pointer; /* Cambia el cursor cuando se pasa sobre la tarjeta */
+}
+
+.cardcanciones img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardcanciones h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}

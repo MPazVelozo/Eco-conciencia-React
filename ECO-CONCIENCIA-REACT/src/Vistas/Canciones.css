@@ -1,0 +1,16 @@
+.canciones {
+  text-align: center;
+  padding: 30px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardsss-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-items: center; /* Centrar las tarjetas horizontalmente */
+  margin-top: 20px;
+}

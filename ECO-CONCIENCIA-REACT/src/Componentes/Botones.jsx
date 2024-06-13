@@ -6,8 +6,7 @@ function Botones() {
   return (
     <div className="btn-group-vertical" role="group" aria-label="Vertical button group">
   <button type="button" className="btn btn">Quienes somos</button>
-  <button type="button" className="btn btn">Que Hacemos</button>
-  
+  <Link to="/QueHacemos" className="btn btn">Que Hacemos</Link>
   <Link to="/Objetivos" className="btn btn">Objetivos</Link>
 </div>
   )
