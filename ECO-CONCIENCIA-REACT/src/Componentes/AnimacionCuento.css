@@ -11,7 +11,7 @@
     animation: move 2s infinite alternate;
   }
   
-  @keyframes move {
+   @keyframes move {
     0% { transform: translateX(0); }
     100% { transform: translateX(20px); }
   }
@@ -20,6 +20,6 @@
     animation: move 2s infinite alternate;
   }
   
- 
+  
  
   
