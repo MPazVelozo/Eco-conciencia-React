@@ -1,9 +1,8 @@
 import React from 'react';
-
-
 import fondo from '../assets/fondo.png';
 import icono2 from '../assets/icono2.png';
 import Cardcanciones from '../Componentes/Cardcanciones';
+import './Canciones.css';
 
 const Canciones = () => {
   const cards = [
@@ -14,10 +13,6 @@ const Canciones = () => {
     { title: 'La canción y el reciclaje', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=e-pM5ArUYNI' },
     { title: 'El medioambiente vamos a cuidar', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=_Ic_oz9FN44' },
   ];
-
-  const handleButtonClick = () => {
-    console.log('Botón clickeado');
-  };
 
   return (
     <div className="canciones" style={{ backgroundImage: `url(${fondo})` }}>
