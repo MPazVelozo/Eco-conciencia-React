@@ -1,0 +1,22 @@
+
+.imagen35 {
+    
+    max-width: 80%;
+    transition: opacity 0.3s ; 
+    
+ }
+.imagen35:hover {
+    opacity: 0.5;
+} 
+.botonn {
+    border: none;
+    background-color: transparent;
+    
+}
+.containerm {
+    display: flex;
+    flex-wrap: nowrap; /* No permitir que los elementos se envuelvan a la siguiente línea */
+    justify-content: center; /* Alinear los elementos en el centro horizontalmente */
+    align-items: center; /* Alinear los elementos en el centro verticalmente */
+    gap: 10px; /* Espacio entre los elementos, ajusta según sea necesario */
+}

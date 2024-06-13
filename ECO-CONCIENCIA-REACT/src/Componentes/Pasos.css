@@ -1,0 +1,13 @@
+.reciclaje {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left; /* Alinea el texto a la izquierda */
+    color: #1a1819; /* color del texto */
+    background-color: #d2d0ef; /* color de fondo */
+    padding: 20px; /* espaciado interno */
+    border-radius: 15px; /* bordes redondeados */
+    width: 350px; /* ancho del contenedor */
+    margin-left: 150px; /* espacio exterior */
+    font-family: cursive;
+    margin-top: 94px;
+}

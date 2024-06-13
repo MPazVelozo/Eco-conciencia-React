@@ -21,7 +21,7 @@ function Inicio() {
       <Ecoconciencia />
       <div className="container">
         <Card  button="APRENDIZAJE" imagen={v78_1133}/>
-        <Card  button="EDUCACIÓN" imagen={v78_114}/>
+        <Card to="/Educacion" button="EDUCACIÓN" imagen={v78_114}/>
         <Card  button="VIDEOS" imagen={v78_115}/>
         <Card  to="/Cuentos" button="CUENTOS" imagen={v489_3}/>
         <Card to="/Canciones" button="CANCIONES" imagen={v497_130}/>
