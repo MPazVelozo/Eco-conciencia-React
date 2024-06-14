@@ -15,6 +15,7 @@ const Canciones = () => {
   ];
 
   return (
+
     <div className="canciones" style={{ backgroundImage: `url(${fondo})` }}>
       <h1>CANCIONES</h1>
       <div className="cardsss-container">
@@ -28,6 +29,7 @@ const Canciones = () => {
         ))}
       </div>
     </div>
+
   );
 };
 
