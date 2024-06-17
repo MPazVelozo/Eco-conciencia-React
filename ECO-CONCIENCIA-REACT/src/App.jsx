@@ -6,6 +6,8 @@ import Cuentos from './Vistas/Cuentos'
 import Quehacemos from './Vistas/Quehacemos'
 import Canciones from './Vistas/Canciones'
 import Educacion from './Vistas/Educacion'
+import Videos from './Vistas/Videos'
+import Aprendizaje from './Vistas/Aprendizaje'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
     <Route path="/Quehacemos" element={<Quehacemos/>}/>
     <Route path="/Canciones" element={<Canciones/>}/>
     <Route path="/Educacion" element={<Educacion/>}/>
+    <Route path="/Videos" element={<Videos/>}/>
+    <Route path="/Aprendizaje" element={<Aprendizaje/>}/>
 
     </Routes>
     </BrowserRouter>

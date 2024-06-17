@@ -14,6 +14,7 @@ import amarillo from '../assets/amarillo.png'
 import azul1 from '../assets/azul1.png'
 import Boton from '../Componentes/Boton'
 import ReactPlayer from 'react-player'
+import './Educacion.css'
 
 function Educacion() {
   const vidUrl="https://www.youtube.com/watch?v=-UFFFUTMlCw"
@@ -26,7 +27,7 @@ function Educacion() {
     <div className="Educacion">
       <Boton />
       <Educacion2 />
-      <div className="player-container">
+      <div className="players-container">
       <ReactPlayer
       url={vidUrl}
       playimg={`${false}`}

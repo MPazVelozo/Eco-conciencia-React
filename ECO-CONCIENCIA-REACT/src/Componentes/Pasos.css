@@ -1,13 +1,50 @@
+/* .reciclaje {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left; 
+    color: #1a1819; 
+    background-color: #d2d0ef; 
+    padding: 20px; 
+    border-radius: 15px; 
+    width: 350px; 
+    margin-left: 150px; 
+    font-family: cursive;
+    margin-top: 94px;
+} 
+ */
+
+/* Pasos.css */
+pasos-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
 .reciclaje {
     font-size: 18px;
     line-height: 1.4;
-    text-align: left; /* Alinea el texto a la izquierda */
-    color: #1a1819; /* color del texto */
-    background-color: #d2d0ef; /* color de fondo */
-    padding: 20px; /* espaciado interno */
-    border-radius: 15px; /* bordes redondeados */
-    width: 350px; /* ancho del contenedor */
-    margin-left: 150px; /* espacio exterior */
+    text-align: left;
+    color: #1a1819;
+    background-color: #d2d0ef;
+    padding: 20px;
+    border-radius: 15px;
+    width: 490px;
+    margin-left: 150px;
     font-family: cursive;
     margin-top: 94px;
-}
+    
+    
+  }
+  
+.reciclaje ol {
+    list-style-type: disc;
+    padding-left: 0px;
+    margin: 0;
+  }
+  
+.reciclaje ol li {
+    margin-bottom: 10px;
+    display: list-item; /* Asegura que los elementos se muestren como list-items */
+  }
+  

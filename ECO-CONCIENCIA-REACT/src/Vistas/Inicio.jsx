@@ -20,9 +20,9 @@ function Inicio() {
       <Botones/>
       <Ecoconciencia />
       <div className="container">
-        <Card  button="APRENDIZAJE" imagen={v78_1133}/>
+        <Card  to="/Aprendizaje" button="APRENDIZAJE" imagen={v78_1133}/>
         <Card to="/Educacion" button="EDUCACIÓN" imagen={v78_114}/>
-        <Card  button="VIDEOS" imagen={v78_115}/>
+        <Card  to="/Videos" button="VIDEOS" imagen={v78_115}/>
         <Card  to="/Cuentos" button="CUENTOS" imagen={v489_3}/>
         <Card to="/Canciones" button="CANCIONES" imagen={v497_130}/>
     </div>

@@ -4,7 +4,7 @@ import './Qhacemos.css'
 
 function Qhacemos() {
   return (
-    <div>
+    <div className="qhacemos-container">
         <h3>Qué hacemos?</h3>
     <h4>Somos un grupo de estudiantes que actualmente participan en un
     bootcamp de desarrolladoras full Stack JavaScript, la cual estamos

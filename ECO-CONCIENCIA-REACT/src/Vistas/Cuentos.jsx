@@ -7,7 +7,6 @@ import Container1 from '../Componentes/Container1'
 import Boton from '../Componentes/Boton'
 
 
-
 function App() {
 
   return (

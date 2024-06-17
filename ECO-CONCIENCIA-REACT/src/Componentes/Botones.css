@@ -1,16 +1,16 @@
 
 .btn {
-    background-color: #c591c5; 
+    background-color: #d39dd3; 
     color: #ffffff; 
     border: none;
     margin: 7px 0;
     padding: 10px;
-    font-size: 15px;
+    font-size: 150px;
     cursor: pointer;
 }
  
 .btn-group-vertical {
-    background-color: #fcb0ef; 
+    background-color: #f9b4ee; 
     padding: 10px;
     border-radius: 20px;
     flex-direction: column; 
