@@ -6,7 +6,6 @@ import Boton from '../Componentes/Boton';
 import pc from '../assets/pc.png';
 import Compu from '../Componentes/Compu';
 
-
 function Quehacemos() {
   const [count, setCount] = useState(0)
   return (

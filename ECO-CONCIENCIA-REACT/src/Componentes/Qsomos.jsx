@@ -1,12 +1,13 @@
 import React from 'react';
 import './Qsomos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Boton from './Boton';
+
 
 const Qsomos = () => {
   return (
     <div className="background">
-      {/* Botones */}
-      <button type="button" className="btn btn-secondary custom-button">INICIO</button>
+      <Boton />
 
       <div className="container mt-5 main-container">
         {/* Texto */}
