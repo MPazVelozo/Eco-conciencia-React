@@ -11,6 +11,7 @@ import Aprendizaje from './Vistas/Aprendizaje'
 import Quienessomos from './Vistas/Quienessomos'
 
 
+
 function App() {
   return ( 
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
     <Route path="/Videos" element={<Videos/>}/>
     <Route path="/Aprendizaje" element={<Aprendizaje/>}/>
     <Route path="/Quienessomos" element={<Quienessomos/>}/>
+    
 
     </Routes>
     </BrowserRouter>
