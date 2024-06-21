@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Boton() {
   return (
-    <Link to="/" className="btn btn-secondary custom-button">INICIO</Link>
+    <Link to="/" className="btn btn-secondary new-custom-button">INICIO</Link>
     // <button type="button" className="btn btn-secondary custom-buttom">INICIO</button>
   )
 }

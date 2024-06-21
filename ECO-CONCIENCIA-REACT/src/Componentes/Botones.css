@@ -1,20 +1,20 @@
 
 .btn {
-    background-color: #d39dd3; 
-    color: #ffffff; 
+    background-color: #c1bfc1; 
+    color: #cf5555; 
     border: none;
     margin: 7px 0;
-    padding: 10px;
     font-size: 150px;
     cursor: pointer;
-}
- 
+    
+} 
 .btn-group-vertical {
-    background-color: #f9b4ee; 
+    background-color: #efabe4; 
     padding: 10px;
     border-radius: 20px;
     flex-direction: column; 
     top: 130px;
+    
       
 }
   

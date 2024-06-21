@@ -1,5 +1,35 @@
-.custom-buttom {
+/* .custom-buttom {
     border: 2px solid #5a99dc;
     border-radius: 8px; 
     margin-top: 20px; 
-  }
+  } */
+
+/* Boton.css */
+btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+new-custom-button {
+  /* Estilos personalizados */
+  background-color: #28a745; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  border: 2px solid #28a745; /* Borde sólido verde */
+  padding: 12px 30px; /* Espaciado interno */
+  font-weight: bold; /* Texto en negrita */
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+.new-custom-button:hover {
+  background-color: white; /* Color de fondo blanco al pasar el cursor */
+  color: #28a745; /* Color del texto verde al pasar el cursor */
+  border: 2px solid #28a745; /* Borde sólido verde */
+}

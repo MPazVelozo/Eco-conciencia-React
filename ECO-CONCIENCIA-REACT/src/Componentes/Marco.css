@@ -1,0 +1,14 @@
+.contenedor-imagen {
+    position: relative;
+    margin-top: -80px;
+}
+  
+.texto-encima {
+    position: relative;
+    margin: 130px;
+    background-color: transparent;
+    border: none;
+    
+
+    
+}

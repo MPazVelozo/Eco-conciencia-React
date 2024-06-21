@@ -1,0 +1,15 @@
+.foto-img{
+    margin: 100px;
+    height: 50vh;
+    display: flex;
+    
+    }
+    
+.foto-img {
+    transition: transform 0.4s ease;
+      }
+    
+.agrandado {
+    transform: scale(1.5);
+      }
+   

@@ -4,6 +4,7 @@ import Card from '../Componentes/Cardvideos';
 import fondo from '../assets/fondo.png';
 import icono2 from '../assets/icono2.png'
 import './Videos.css'
+import Boton from '../Componentes/Boton';
 
 const App = () => {
   const cards = [
@@ -20,6 +21,9 @@ const App = () => {
 
   return (
     <div className="appvideos" style={{ backgroundImage: `url(${fondo})` }}>
+      <div className="botonn-inicio">
+        <Boton />
+        </div>
       <h1>VIDEOS</h1>
       <div className="card-container">
         <div className="card-row">

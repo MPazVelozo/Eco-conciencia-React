@@ -14,3 +14,9 @@
   justify-items: center; /* Centrar las tarjetas horizontalmente */
   margin-top: 20px;
 }
+.botonnn-inicio {
+  text-align: left;
+  position: relative;
+  margin-right: 1130px;
+  margin-top: -40px;
+}

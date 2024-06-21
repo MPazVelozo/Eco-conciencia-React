@@ -3,6 +3,7 @@ import fondo from '../assets/fondo.png';
 import icono2 from '../assets/icono2.png';
 import Cardcanciones from '../Componentes/Cardcanciones';
 import './Canciones.css';
+import Boton from '../Componentes/Boton';
 
 const Canciones = () => {
   const cards = [
@@ -17,6 +18,9 @@ const Canciones = () => {
   return (
 
     <div className="canciones" style={{ backgroundImage: `url(${fondo})` }}>
+      <div className="botonnn-inicio">
+        <Boton />
+        </div>
       <h1>CANCIONES</h1>
       <div className="cardsss-container">
         {cards.map((card, index) => (
