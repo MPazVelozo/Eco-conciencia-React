@@ -1,9 +1,10 @@
 import React from 'react';
 import './Contenedores.css';
+import { Link } from 'react-router-dom';
 
-function Contenedores({color}) {
+function Contenedores({color, to}) {
     return (
-        <div className="container">
+        <div className="container"> <Link to={to}>
             <button className="botonn">
                 <img
                     src={color}
@@ -11,6 +12,7 @@ function Contenedores({color}) {
                     alt="Contenedor"
                 />
             </button>
+            </Link>
         </div>
     );
 }
