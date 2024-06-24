@@ -12,7 +12,7 @@ import Quienessomos from './Vistas/Quienessomos'
 import Contenrojo from './Vistas/Contenrojo'
 import Contenazul from './Vistas/Contenazul'
 import Contenamatillo from './Vistas/Contenamatillo'
-
+import Contennegro from './Vistas/Contennegro'
 
 function App() {
   return ( 
@@ -30,6 +30,7 @@ function App() {
     <Route path="/Contenrojo" element={<Contenrojo/>}/>
     <Route path="/Contenazul" element={<Contenazul/>}/>
     <Route path="/Contenamarillo" element={<Contenamatillo/>}/>
+    <Route path="/Contennegro" element={<Contennegro/>}/>
 
     </Routes>
     </BrowserRouter>

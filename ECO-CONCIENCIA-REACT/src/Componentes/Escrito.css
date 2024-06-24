@@ -1,0 +1,9 @@
+.text-lowercase1{
+        position: absolute; 
+        top: 0px; 
+        left: 0; 
+        background-color: transparent;
+        padding: 50px; 
+        text-align: justify;
+        font-size: 30px;
+    }
