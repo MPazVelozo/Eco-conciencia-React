@@ -1,7 +1,10 @@
-.foto-img{
+/* .foto-imagen{
     margin: 100px;
     height: 50vh;
     display: flex;
+    float: right;
+
+ 
     
     }
     
@@ -12,4 +15,21 @@
 .agrandado {
     transform: scale(1.5);
       }
-   
+    */
+
+    .contenedor-imagen {
+        display: flex;
+        justify-content: flex-end; /* Alinea los elementos hijos a la derecha */
+        margin: 100px;
+    }
+    
+    .foto-imagen {
+        height: 50vh;
+        transition: transform 0.4s ease;
+        cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+    }
+    
+    .agrandado {
+        transform: scale(1.5);
+    }
+    

@@ -1,0 +1,19 @@
+  
+.container-texto-azul {
+    margin-top: 4px;
+}
+
+#azul {
+    font-size: 24px;
+    margin-left: 640px;
+    text-align: justify;  
+}
+.texto-encimaa {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: transparent;
+    padding: 50px; 
+    text-align: justify;
+    margin-top: 50px;
+}

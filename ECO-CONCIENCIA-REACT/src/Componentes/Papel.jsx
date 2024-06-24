@@ -1,7 +1,8 @@
 import React from 'react';
 import './Elemento.css';
 
-const Elemento = (props) => {
+
+const Papel = (props) => {
   const agrandarImagen = () => {
     const imagen = document.getElementById("imagen");
     imagen.classList.add("agrandado");
@@ -24,4 +25,4 @@ const Elemento = (props) => {
   );
 }
 
-export default Elemento;
+export default Papel;
