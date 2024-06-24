@@ -1,12 +1,16 @@
 import React from "react";
-import './Borde.css'
 import Escrito from './Escrito'
+import './Borde.css'
+
 
 function Borde({imagen="Borde"}) {
     return (
-        <div className="contenedor-imagen2"  style={{ position: "absolute", top: 78, right: 0, textAlign: "right" }}>
-          <img src={imagen} className="foto-img rounded float-end" />
-          <div>
+        <div className="contenedor-imagen-negro">
+          <div className="imagen-containerNeg" style={{ backgroundImage: "url('./assets/borde.png')" }}>
+          <img src={imagen} className="foto-img-neg rounded float-end" />
+          </div>
+            <div className="texto-encima-ama">
+
                       <Escrito />
                       </div>
                     </div>

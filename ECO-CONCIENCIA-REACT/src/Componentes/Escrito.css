@@ -1,9 +1,27 @@
-.text-lowercase1{
-        position: absolute; 
-        top: 0px; 
-        left: 0; 
-        background-color: transparent;
-        padding: 50px; 
-        text-align: justify;
-        font-size: 30px;
-    }
+#negro {
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: justify;  
+    margin-left: 350px;
+    margin-top: -60px;
+    margin-right: 50px;
+
+    
+    
+    
+}
+.contenedor-imagen-negro {
+    position: relative; 
+    display: inline-block;
+    
+    
+}
+  
+.texto-encima-neg {
+    position: absolute;  
+    background-color: transparent; 
+    text-align: justify;
+    margin-top: -150px;
+   
+    
+}
