@@ -1,21 +1,63 @@
-.appvideos {
-    position: relative;
-    text-align: center;
-    padding: 50px;
-    box-sizing: border-box;
-    background-image: url('../src/assets/fondo.png'); /* Ruta relativa ajustada */
-    background-size: cover ; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen de fondo */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-  }
+.container1-lg {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo-video {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
   
-.botonn-inicio {
-    text-align: left;
-    position: relative;
-    margin-right: 1130px;
-    margin-top: -50px;
-  }
+}
+.Boton-inicioo {
+  margin-right: 1100px;
+}
+
+.videos-container {
+  justify-content: center;
+  gap: 40px;
+}
+
+.video {
+  position: relative;
+  width: 300px; /* Ancho de cada video */
+  height: 200px; /* Alto de cada video */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  
+  
+}
+
+.video:hover {
+  transform: scale(1.05);
+}
+
+.video h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: #201e1e;
+  color: #ece9e9;
+  font-size: 1.2rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+.boton-inicio {
+  margin-top: 20px;
+}

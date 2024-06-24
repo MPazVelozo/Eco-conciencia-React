@@ -11,16 +11,21 @@ card {
     background-size: cover;
     position: relative;
     margin: 0 auto;
+    
 }
 .card-text {
     text-align: justify;
+      
 }
 .btn-link{
-    display: block;
-    margin: 10px auto;
-    background-color: #9ecfe6; 
-    color: #5a5a5a; 
-    text-align: center;
-    text-decoration: none;
-    
-}
+    padding: 10px;
+    margin: 10px;
+    background-color: #82c5e4; 
+    color: #fbf1f1; 
+    border-radius: 15px;    
+    border: none;           
+    font-weight: bold;
+    text-decoration: none;  
+
+} 
+

@@ -16,12 +16,12 @@ function Card1({ titulo, imagen, texto }) {
         <h5 className="card-title">{titulo}</h5>
         <p className="card-text">{isTruncated ? texto.slice(0, 500) + '...' : texto}</p>
         {!isTruncated && (
-          <button className="btn btn-link" onClick={toggleTruncate}>
+          <button className="btn-link" onClick={toggleTruncate}>
             Leer menos
           </button>
         )}
         {isTruncated && texto.length > 500 && (
-          <button className="btn btn-link" onClick={toggleTruncate}>
+          <button className="btn-link" onClick={toggleTruncate}>
             Leer más
           </button>
         )}
