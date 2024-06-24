@@ -1,18 +1,25 @@
 .btn-success {
     position: relative;
-    top: 300px;
-    margin: 50px;
-    width: 550px;
+    height: 100vh;
+    margin: 20px;
+    width: 250px;
     height: 60px;
     border-radius: 25px; 
     background-color: #51aa95;
     border: none;
     color: rgb(236, 241, 245); 
     text-align: center;
-    font-size: 24px;
-    cursor: pointer;
-    transition: transform 0.9s;
-    transform: scale(0.95);
+    font-size: 18px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      }
+      .top-container {
+        position: absolute;
+        top: 20px; /* Ajusta la distancia desde la parte superior según sea necesario */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%)
+
       }
       

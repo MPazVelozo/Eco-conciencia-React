@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <div>
+      <Click />
         <Plastico imagen={plastico} />
         <Chart imagen={chart} />
-        <Click />
         {/* <Nino imagen={ninos} /> */}
       </div>
         

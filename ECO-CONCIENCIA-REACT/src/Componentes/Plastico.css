@@ -1,35 +1,14 @@
-/* .foto-imagen{
-    margin: 100px;
-    height: 50vh;
-    display: flex;
-    float: right;
-
- 
-    
-    }
-    
-.foto-img {
-    transition: transform 0.4s ease;
-      }
-    
-.agrandado {
-    transform: scale(1.5);
-      }
-    */
-
-    .contenedor-imagen-amar {
+.contenedor-imagen-amar {
         display: flex;
-        
-        margin: 100px;
+        margin-left: 70px;
+        margin-top: 70px;
     }
     
-    foto-imagen-amar {
+    .foto-imagen-amar {
         height: 50vh;
-        transition: transform 0.4s ease;
-        cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+        margin-top: 60px;
+
+    
     }
     
-    agrandado {
-        transform: scale(1.5);
-    }
     

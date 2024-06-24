@@ -13,9 +13,10 @@ function App() {
 
   return (
     <div>
+      <Click />
       <Papel imagen={papel} />
      <Arco imagen={arco} />
-    {/* <Click /> */}
+     
     {/* <Nino imagen={ninos} />    */}
     </div>
   )

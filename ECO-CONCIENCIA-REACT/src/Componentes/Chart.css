@@ -1,20 +1,20 @@
 .contenedor-imagen-amarillo {
     position: relative;
-    margin-top: -900px;
-    margin-left: 750px;
-   
-
-}
-.foto-img-ama {
-    width: 400px;
+    margin-left: 300px;
     
 
+    /* Otros estilos que ya tienes */
 }
-/* texto-encima-ama {
-    position: relative;
-    margin: 90px;
-    background-color: transparent;
-    border: none;
-    
-  
-} */
+
+.imagen-container10 {
+    margin-top:-300px;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    margin-left: 300px;
+}
+
+
+
+.texto-encima-ama {
+position: relative;
+
+}

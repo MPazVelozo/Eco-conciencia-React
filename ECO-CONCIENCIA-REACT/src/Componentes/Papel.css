@@ -1,16 +1,15 @@
 
 .contenedor-imagen11 {
   display: flex;
-  justify-content: flex-end; /* Alinea los elementos hijos a la derecha */
-  margin: 100px;
-}
-
-.foto-imagen11 {
-  width: 70vh;
+  justify-content: flex-start; /* Alinea los elementos hijos a la derecha */
+  margin: 90px;
   margin-right: 650px;
-  margin-top: -50px;
- 
   
+}
+.foto-imagen11 {
+  margin-right: 20px;
+height: 400px;
+margin-top: 40px;
 }
 
 

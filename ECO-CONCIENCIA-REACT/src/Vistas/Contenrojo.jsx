@@ -14,10 +14,10 @@ function App() {
 
   return (
       <div>
-
+<Click />
 <Elemento imagen={elemento} />
- < Marco imagen={marco1} /> 
- <Click />
+< Marco imagen={marco1} /> 
+ 
  {/* <Nino imagen={ninos} />    */}
 
 
