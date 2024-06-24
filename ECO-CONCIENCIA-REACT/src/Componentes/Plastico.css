@@ -17,17 +17,19 @@
       }
     */
 
-    .contenedor-imagen {
+    .contenedor-imagen-amar {
         display: flex;
-        justify-content: flex-end; /* Alinea los elementos hijos a la derecha */
+        
         margin: 100px;
-        
     }
     
-    .foto-imagen {
-      width: 90vh;
-        
+    foto-imagen-amar {
+        height: 50vh;
+        transition: transform 0.4s ease;
+        cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
     }
     
-   
+    agrandado {
+        transform: scale(1.5);
+    }
     

@@ -32,7 +32,7 @@ function Educacion() {
         <Contenedores color={verde} />
         <Contenedores color={naranjo} to={"/Contenrojo"} />
         <Contenedores color={gris} />
-        <Contenedores color={amarillo} />
+        <Contenedores color={amarillo} to={"/Contenamarillo"} />
         <Contenedores color={azul1} to={"/Contenazul"} />
       </div>
     </div>

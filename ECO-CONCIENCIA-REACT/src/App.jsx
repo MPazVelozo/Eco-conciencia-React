@@ -11,7 +11,7 @@ import Aprendizaje from './Vistas/Aprendizaje'
 import Quienessomos from './Vistas/Quienessomos'
 import Contenrojo from './Vistas/Contenrojo'
 import Contenazul from './Vistas/Contenazul'
-
+import Contenamatillo from './Vistas/Contenamatillo'
 
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
     <Route path="/Quienessomos" element={<Quienessomos/>}/>
     <Route path="/Contenrojo" element={<Contenrojo/>}/>
     <Route path="/Contenazul" element={<Contenazul/>}/>
+    <Route path="/Contenamarillo" element={<Contenamatillo/>}/>
 
     </Routes>
     </BrowserRouter>

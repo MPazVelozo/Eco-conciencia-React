@@ -15,8 +15,8 @@ function App() {
     <div>
       <Papel imagen={papel} />
      <Arco imagen={arco} />
-    <Click />
-    <Nino imagen={ninos} />   
+    {/* <Click /> */}
+    {/* <Nino imagen={ninos} />    */}
     </div>
   )
 }

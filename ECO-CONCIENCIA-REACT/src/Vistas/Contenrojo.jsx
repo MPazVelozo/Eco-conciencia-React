@@ -18,7 +18,7 @@ function App() {
 <Elemento imagen={elemento} />
  < Marco imagen={marco1} /> 
  <Click />
- <Nino imagen={ninos} />   
+ {/* <Nino imagen={ninos} />    */}
 
 
       </div>

@@ -1,8 +1,7 @@
 import React from 'react';
-import './Papel.css';
+import './Plastico.css';
 
-
-const Papel = (props) => {
+const Plastico = (props) => {
   const agrandarImagen = () => {
     const imagen = document.getElementById("imagen");
     imagen.classList.add("agrandado");
@@ -13,11 +12,11 @@ const Papel = (props) => {
   };
 
   return (
-    <div className="contenedor-imagen11">
+    <div className="contenedor-imagen-amar">
       <img 
         src={props.imagen} 
         id="imagen" 
-        className="foto-imagen11 rounded float-end" 
+        className="foto-imagen-amar rounded float-end" 
         alt="Foto" 
         onClick={agrandarImagen} 
       /> 
@@ -25,4 +24,4 @@ const Papel = (props) => {
   );
 }
 
-export default Papel;
+export default Plastico;

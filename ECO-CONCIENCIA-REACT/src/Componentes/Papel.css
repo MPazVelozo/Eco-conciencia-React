@@ -2,15 +2,15 @@
 .contenedor-imagen11 {
   display: flex;
   justify-content: flex-end; /* Alinea los elementos hijos a la derecha */
-  margin: 800px;
+  margin: 100px;
 }
 
 .foto-imagen11 {
-  height: 0vh;
-  transition: transform 0.4s ease;
-  cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+  width: 70vh;
+  margin-right: 650px;
+  margin-top: -50px;
+ 
+  
 }
 
-.agrandado {
-  transform: scale(1.5);
-}
+
