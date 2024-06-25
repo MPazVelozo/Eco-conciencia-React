@@ -29,7 +29,7 @@ function Educacion() {
       <Pasos />
       <Identificar />
       <div className="containerm d-flex flex">
-        <Contenedores color={verde} />
+        <Contenedores color={verde} to={"/Contenverde"}/>
         <Contenedores color={naranjo} to={"/Contenrojo"} />
         <Contenedores color={gris} to={"/Contennegro"}/>
         <Contenedores color={amarillo} to={"/Contenamarillo"} />

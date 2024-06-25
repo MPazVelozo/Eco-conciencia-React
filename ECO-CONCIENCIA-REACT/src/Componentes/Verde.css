@@ -1,0 +1,21 @@
+contenedor-imagen-verde {
+    position: relative;
+    margin-left: 300px;
+    
+
+    /* Otros estilos que ya tienes */
+}
+
+.imagen-container10 {
+    margin-top:100px;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    margin-left: 300px;
+    
+}
+
+
+
+.texto-encima-verde {
+position: relative;
+
+}

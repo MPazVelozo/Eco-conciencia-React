@@ -1,0 +1,27 @@
+#verde {
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: justify;  
+    margin-left: 50px;
+    margin-top: -80px;
+    margin-right: 40px;
+
+    
+    
+    
+}
+.contenedor-imagen-verde {
+    position: relative; 
+    display: inline-block;
+    
+    
+}
+  
+.texto-encima-verde {
+    position: absolute;  
+    background-color: transparent; 
+    text-align: justify;
+    margin-top: 300px;
+   
+    
+}
