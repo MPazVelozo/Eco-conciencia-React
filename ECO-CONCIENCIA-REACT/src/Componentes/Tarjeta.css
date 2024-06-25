@@ -26,3 +26,26 @@
       transform: translateY(0); 
     }
   }
+#pri{
+  font-size: 30px;
+  font-family: cursive;
+  color: #c587a6;
+  margin: 10px;
+  
+}
+#seg{
+  font-size: 30px;
+  font-family: cursive;
+  color: #c587a6;
+  margin: 10px;
+}
+#ter {
+  font-size: 30px;
+  font-family: cursive;
+  color: #c587a6;
+  margin: 10px;
+}
+.card-titleP{
+text-align: center;
+}
+  

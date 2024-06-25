@@ -9,7 +9,9 @@ function Objetivos() {
 
   return (
     <div>
+    <div className="oboton">
       <Boton />
+      </div>
     <Contenedor />
     </div>
   )

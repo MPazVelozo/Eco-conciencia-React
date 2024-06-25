@@ -38,9 +38,10 @@ img {
 }
 
 .main-containeruwu {
-  width: 1500px;
+  width: 150px;
   height: 400px;
   margin: 0 auto;
+  margin-left: 300px;
   
 }
 .Titulo-containeruwu {
@@ -135,6 +136,10 @@ img {
   color: #fff;
   z-index: 1;
   cursor: pointer;
+}
+.uwuboton{
+  margin:30px;
+  margin-left: -230px;
 }
 .rightArrow2uwu {
   position: absolute;

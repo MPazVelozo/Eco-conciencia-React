@@ -8,6 +8,7 @@
     border: 0px solid rgb(120, 110, 110);
     margin-top: 150px;
     top: 50px;
+    
 }
 .card-imagenjs {
     width: 100%;
@@ -15,6 +16,8 @@
     object-fit: cover; 
     border-radius: 8px; 
     margin-top: 10px;
+        font-size: 30px;
+
 }
 .card-button {
     color: white;
@@ -29,5 +32,5 @@
     text-align: center;
     text-decoration: none; 
     box-sizing: border-box; 
+    
 }
-  

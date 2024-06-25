@@ -20,6 +20,9 @@ const Canciones = () => {
 <Boton />
 </div>
 <h1 className="titulo-cancion">CANCIONES</h1>
+<div id="can">
+¡Canta y cuida el planeta con nuestras canciones del medio ambiente!
+      </div>
 <div className="canciones-container">
         {canciones.map((cancion, index) => (
 <div className="cancion" key={index}>

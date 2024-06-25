@@ -29,13 +29,15 @@ body {
     background-color: rgba(243, 235, 235, 0.8);
     margin-left: 70px;
   }
-  
+  .background{
+  margin: 40px;
+  }
   .cardss-container {
     display: flex;
     margin-top: -650px;
     margin-left: 650px;
     flex-wrap: wrap;
-    justify-content: right; /* Align cards to the right */
+    justify-content: center; /* Align cards to the right */
     max-width: 40%; /* Ensure it doesn't take more than half of the screen */
     max-height: 30%;
 
@@ -58,7 +60,7 @@ body {
     text-align: left;
 
   }
-  .card-title {
+  .card-title1 {
     text-align: center;
     font-size: 15px;
     margin-top: 15px;
