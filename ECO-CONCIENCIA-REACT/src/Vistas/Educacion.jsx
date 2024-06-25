@@ -20,7 +20,9 @@ function Educacion() {
 
   return (
     <div className="App">
+      <div className="eduboton">
       <Boton />
+      </div>
       <div className="players-container">
         <ReactPlayer url={vidUrl} playing={false} volume={0.5} />
       </div>

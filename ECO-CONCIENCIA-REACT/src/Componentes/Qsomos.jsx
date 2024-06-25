@@ -13,11 +13,11 @@ const Qsomos = () => {
         {/* Texto */}
         <div className="text-container">
           <p className="lineas">
-            _____________________________________________________
+            ______________________
           </p>
           <h1 className="display-4" id="titulo">¿Quiénes somos?</h1>
           <p className="lineas">
-            _____________________________________________
+            _______________________
           </p>
           <p className="lead">
             Somos un equipo comprometido con el medio ambiente y creemos en la importancia de educar
@@ -31,7 +31,7 @@ const Qsomos = () => {
             conservación de nuestro planeta.
           </p>
           <p className="lineas"> 
-            _________________________
+            ___________________
           </p>
           <p className="frase">
             ¡Juntos hagamos el cambio!
@@ -46,13 +46,12 @@ const Qsomos = () => {
           {[
             { name: 'Mary Camacaro', img: 'https://i.pinimg.com/736x/53/04/c5/5304c5d8625cfb2f96e9e31516631c2e.jpg' },
             { name: 'María Paz Velozo', img: 'https://i.pinimg.com/736x/6c/29/64/6c2964d1d8d496abf8eeb47921ac5b2c.jpg' },
-            { name: 'Camila Fuentes', img: 'https://i.pinimg.com/736x/78/bf/e1/78bfe15b2de15a44b890a10589639b6b.jpg' },
-            { name: 'Cynthia Arenas', img: 'https://i.pinimg.com/736x/37/43/01/374301145e6cbdee10055ec09c63b05e.jpg' }
+            { name: 'Camila Fuentes', img: 'https://i.pinimg.com/736x/53/e6/19/53e61966691dbabcd2a6bf44299167af.jpg' },
           ].map((person, index) => (
             <div className="card-1" key={index}>
               <img src={person.img} className="card-img-top-1" alt={`Foto de ${person.name}`} />
               <div className="card-body">
-                <h5 className="card-title">{person.name}</h5>
+                <h5 className="card-title1">{person.name}</h5>
                 {/* <p className="card-text">{person.desc}</p> */}
               </div>
             </div>

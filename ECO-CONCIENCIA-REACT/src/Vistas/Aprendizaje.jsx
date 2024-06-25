@@ -75,18 +75,18 @@ export const Aprendizaje = () => {
 
   return (
     <div className="main-containeruwu">
-      <div>
+      <div className="uwuboton">
         <Boton />
       </div>
       <div className='Titulo-containeruwu'>
-        <p>______________________________________________________________________</p>
+        <p>___________________________________________</p>
         <h1 className="display-4" id="titulo">Actividades que enseñan y divierten</h1>
-        <p>______________________________________________________________________</p>
+        <p>___________________________________________</p>
       </div>
       <div className='Reutilizar-container'>
-        <h1>_________</h1>
+        <h1>___________</h1>
         <h2>¿Sabías que es Reutilizar?</h2>
-        <h1>_________</h1>
+        <h1>___________</h1>
         <h3 className='reutilizar-letras'> Reutilizar significa usar algo de nuevo en vez de desecharlo después de su primer uso, es decir, darle una segunda vida útil a un objeto, material o recurso, ya sea reparándolo, renovándolo o usándolo de manera diferente. Es una forma de reducir la cantidad de residuos que generamos. </h3>
         <div className="App">
           <CardWithImages
@@ -95,7 +95,7 @@ export const Aprendizaje = () => {
           />
         </div>
         <h3> Esta "R" del reciclaje está presente en todas las actividades que les vamos a presentar en esta sección:</h3>
-        <p>______________________________________________________________________</p>
+        <p>____________________________________________</p>
       </div>
       <div className='Papel-container'>
         <h2>¿Sabías que puedes crear tu propio papel?</h2>
@@ -129,7 +129,7 @@ export const Aprendizaje = () => {
 
         </div>
         <div>
-          <p>______________________________________________________________________</p>
+          <p>____________________________________________</p>
         </div>
 
         <div className='videoyutuwu'>
@@ -143,7 +143,7 @@ export const Aprendizaje = () => {
           </div>
         </div>
         <div>
-          <p>______________________________________________________________________</p>
+          <p>____________________________________________</p>
         </div>
         <div className='Macetero-container2'>
           <h2>Crea un conejo macetero!</h2>
@@ -175,7 +175,7 @@ export const Aprendizaje = () => {
             </div>
           </div>
           <div>
-            <p>______________________________________________________________________</p>
+            <p>____________________________________________</p>
           </div>
 
           <div className='videoyutuwu'>
@@ -187,7 +187,7 @@ export const Aprendizaje = () => {
             />
           </div>
           <div>
-            <p>______________________________________________________________________</p>
+            <p>____________________________________________</p>
           </div>
         </div>
       </div>

@@ -17,3 +17,8 @@ body{
     align-items: center; /* Alinear los elementos en el centro verticalmente */
     gap: 10px; /* Espacio entre los elementos, ajusta según sea necesario */
 }
+
+.eduboton{
+    margin: 30px;
+    margin-left: 60px;
+}

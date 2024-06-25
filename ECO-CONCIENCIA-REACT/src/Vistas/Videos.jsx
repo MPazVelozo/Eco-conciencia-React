@@ -22,7 +22,7 @@ const App = () => {
   return (
     
     <div className="container1-lg">
-      <div className="Boton-inicioo">
+      <div className="Boton-inicio3">
       <Boton />
       </div>
       <h1 className="titulo-video">VIDEOS </h1>

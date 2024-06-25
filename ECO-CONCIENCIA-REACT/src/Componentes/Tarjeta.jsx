@@ -9,7 +9,8 @@ function Tarjeta() {
   <div className="card">
     <img src="https://cdn-icons-png.flaticon.com/512/35/35816.png" className="card-imagenn card-jump" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">PRIMERO</h5>
+      <div id="pri" 
+        className="card-titleP">PRIMERO</div>
       <p className="card-text">Proporcionar a los niños conocimientos sólidos sobre la importancia del reciclaje y su impacto en el medio ambiente.</p>
       <p className="card-text"><small className="text-body-secondary"></small></p>
     </div>
@@ -17,7 +18,8 @@ function Tarjeta() {
   <div className="card">
     <img src={v215_10} className="card-imagenn card-jump" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">SEGUNDO</h5>
+      <div id="seg"
+      className="card-titleP">SEGUNDO</div>
       <p className="card-text">Enseñar a los niños habilidades prácticas relacionadas con el reciclaje, como la identificación de materiales reciclables, la correcta separación de residuos y el manejo seguro de materiales reciclables.</p>
       <p className="card-text"><small className="text-body-secondary"></small></p>
     </div>
@@ -25,7 +27,8 @@ function Tarjeta() {
   <div className="card">
     <img src={v215_11} className="card-imagenn card-jump" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">TERCERO</h5>
+      <div id="ter"
+       className="card-titleP">TERCERO</div>
       <p className="card-text">Establecer una base sólida de conocimiento sobre el reciclaje para que los niños continúen practicando hábitos sostenibles a lo largo de sus vidas y se conviertan en defensores del medio ambiente.</p>
       <p className="card-text"><small className="text-body-secondary"></small></p>
     </div>

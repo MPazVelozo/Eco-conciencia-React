@@ -10,6 +10,9 @@
   margin: 20px;
   margin-left: -60px;
 }
+.btn-dark{
+  margin-top: 30px;
+}
  
 .titulo-cancion {
   font-size: 2.5rem;
@@ -20,13 +23,17 @@
 .canciones-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
  
 .cancion {
-  width: 30%;
-  margin: 10px 0;
-  position: relative;
+width: 300px;
+height: 200px;
+position: relative;
+border: 1px solid #ccc;
+border-radius: 8px;
+overflow: hidden;
 }
  
 .cancion h2 {
@@ -43,4 +50,13 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
    
+}
+#can{
+   font-size:25px ;
+  font-family: Georgia, serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #666;
+  margin:30px;
+  margin-top: 30px;
 }
