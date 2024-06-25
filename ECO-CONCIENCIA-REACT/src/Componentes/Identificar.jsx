@@ -3,12 +3,14 @@ import './Identificar.css'
 
     function Identificar() {
         return(
-            <div className="cont">
-            <div className="elemeno">
-                <p>Cada elemento debe ser colocado en su respectivo contenedor</p>
+            <div className="identificar">
+            <div className="ayuda">
+                <div id="identificar">Cada elemento debe ser colocado en su respectivo contenedor
+
+                </div>
             </div>
             <div className="ayudamos">
-                <p>¡Te ayudamos a identificarlos!</p>
+                <div id="ayuda">¡Te ayudamos a identificarlos!</div>
             </div>
     
           </div>

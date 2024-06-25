@@ -116,7 +116,7 @@ Moraleja: el reciclaje brinda oportunidades que para crear novedades.`,
           </div>
         ))}
        </div>
-      <h4 className="subtitulo">Puedes prácticar la lectura y aprender al mismo tiempo!</h4>
+       <div id="practicar"> ¡Puedes prácticar la lectura y aprender al mismo tiempo!</div>
       <div className="cuentos-container">
         {cuentos.map((cuento, index) => (
           <Card key={index} titulo={cuento.titulo} imagen={cuento.imagen} texto={cuento.texto} />

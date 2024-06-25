@@ -1,40 +1,42 @@
 import React from 'react';
-import fondo from '../assets/fondo.png';
-import icono2 from '../assets/icono2.png';
-import Cardcanciones from '../Componentes/Cardcanciones';
+import ReactPlayer from 'react-player';
+import Card from '../Componentes/Cardcanciones';
 import './Canciones.css';
 import Boton from '../Componentes/Boton';
-
+ 
 const Canciones = () => {
-  const cards = [
-    { title: 'Recicla, recicla', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=7ixrpM9kPUU' },
-    { title: 'Reducir, reutilizar y reciclar con Hiperdino', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=06QjyuFcuUY' },
-    { title: 'El reggaetón del reciclado', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=0k1DGevxYCk' },
-    { title: '¡Aprende el baile del reciclaje con cantajuegos!', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=qq6M-8nkI5g' },
-    { title: 'La canción y el reciclaje', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=e-pM5ArUYNI' },
-    { title: 'El medioambiente vamos a cuidar', image: icono2, videoUrl: 'https://www.youtube.com/watch?v=_Ic_oz9FN44' },
+  const canciones = [
+    { title: 'Recicla, recicla', videoUrl: 'https://www.youtube.com/watch?v=7ixrpM9kPUU' },
+    { title: 'Reducir, reutilizar y reciclar', videoUrl: 'https://www.youtube.com/watch?v=06QjyuFcuUY' },
+    { title: 'El reggaetón del reciclado', videoUrl: 'https://www.youtube.com/watch?v=0k1DGevxYCk' },
+    { title: 'Baile del reciclaje', videoUrl: 'https://www.youtube.com/watch?v=qq6M-8nkI5g' },
+    { title: 'La canción y el reciclaje', videoUrl: 'https://www.youtube.com/watch?v=e-pM5ArUYNI' },
+    { title: 'Cuidemos el medio ambiente', videoUrl: 'https://www.youtube.com/watch?v=_Ic_oz9FN44' },
   ];
-
+ 
   return (
-
-    <div className="canciones" style={{ backgroundImage: `url(${fondo})` }}>
-      <div className="botonnn-inicio">
-        <Boton />
-        </div>
-      <h1>CANCIONES</h1>
-      <div className="cardsss-container">
-        {cards.map((card, index) => (
-          <Cardcanciones
-            key={index}
-            title={card.title}
-            image={card.image}
-            videoUrl={card.videoUrl}
-          />
+<div className="container2-lg">
+<div className="Boton-inicioo">
+<Boton />
+</div>
+<h1 className="titulo-cancion">CANCIONES</h1>
+<div className="canciones-container">
+        {canciones.map((cancion, index) => (
+<div className="cancion" key={index}>
+<ReactPlayer
+              url={cancion.videoUrl}
+              playing={false} // Puedes ajustar esta propiedad según tus necesidades
+              volume={0.5}
+              width="100%"
+              height="100%"
+            />
+<h2>{cancion.title}</h2>
+</div>
         ))}
-      </div>
-    </div>
-
+<button type="button" className="btn btn-dark">¡Disfruta de nuestras canciones educativas</button>
+</div>
+</div>
   );
 };
-
+ 
 export default Canciones;

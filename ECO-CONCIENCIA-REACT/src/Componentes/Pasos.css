@@ -26,9 +26,9 @@ pasos-container {
     line-height: 1.4;
     text-align: left;
     color: #1a1819;
-    background-color: #d2d0ef;
+    background-color: #c8d6f4;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     width: 490px;
     margin-left: 150px;
     font-family: cursive;
@@ -38,13 +38,15 @@ pasos-container {
   }
   
 .reciclaje ol {
-    list-style-type: disc;
     padding-left: 0px;
     margin: 0;
+    font-family: Georgia, serif;
+
   }
   
 .reciclaje ol li {
     margin-bottom: 10px;
     display: list-item; /* Asegura que los elementos se muestren como list-items */
+  
   }
   

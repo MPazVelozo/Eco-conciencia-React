@@ -1,11 +1,8 @@
-.cont {
+.identificar{
     text-align: center;
-    font-family: cursive;
-    margin-top: 50px
-    ;
-}
-.texto {
-    top: 10px;
-    font-family: cursive;
-    
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: Georgia, serif;
+    color: rgb(52, 85, 113);
+    font-size: 25px;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player/youtube';
 import './Cardcanciones.css';
 
-const Cardcanciones = ({ title, image, videoUrl }) => {
+const Cardcanciones = ({ title, videoUrl }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handleCardClick = () => {
@@ -15,7 +15,6 @@ const Cardcanciones = ({ title, image, videoUrl }) => {
         <ReactPlayer url={videoUrl} controls={true} playing={true} width="100%" height="100%" />
       ) : (
         <>
-          <img src={image} />
           <h2>{title}</h2>
         </>
       )}

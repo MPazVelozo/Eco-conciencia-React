@@ -25,7 +25,9 @@ const App = () => {
       <div className="Boton-inicioo">
       <Boton />
       </div>
-      <h1 className="titulo-video">VIDEOS</h1>
+      <h1 className="titulo-video">VIDEOS </h1>
+      <div id="que"> Estos videos están diseñados para informar y concienciar sobre la protección de nuestro planeta. ¡Descubre cómo puedes contribuir a un mundo más sostenible!
+      </div>
       <div className="videos-container">
         {videos.map((video, index) => (
           <div className="video" key={index}>
@@ -40,7 +42,8 @@ const App = () => {
           </div>
         ))}
       </div>
-      <h4 className="subtitulo">¡Disfruta de nuestros videos educativos!</h4>
+      <button type="button" class="btn btn-dark">¡Disfruta de nuestros videos educativos</button>
+
     </div>
   );
 };
