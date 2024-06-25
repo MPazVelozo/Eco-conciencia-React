@@ -7,9 +7,14 @@ body {
   }
   p{
     font-family: cursive;
+    
   }
   h1{
     font-family: cursive;
+    color: #c587a6; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+
+
   }
   
   .main-container {
@@ -21,13 +26,14 @@ body {
   .text-container {
     flex: 1; /* Take up remaining space */
     max-width: 50%; /* Ensure it doesn't take more than half of the screen */
-    background-color: rgba(243, 235, 235, 0.8)
+    background-color: rgba(243, 235, 235, 0.8);
+    margin-left: 70px;
   }
   
   .cardss-container {
     display: flex;
     margin-top: -650px;
-    margin-left: 600px;
+    margin-left: 650px;
     flex-wrap: wrap;
     justify-content: right; /* Align cards to the right */
     max-width: 40%; /* Ensure it doesn't take more than half of the screen */

@@ -13,11 +13,11 @@ const Qsomos = () => {
         {/* Texto */}
         <div className="text-container">
           <p className="lineas">
-            _________________________________________________________________
+            _____________________________________________________
           </p>
           <h1 className="display-4" id="titulo">¿Quiénes somos?</h1>
           <p className="lineas">
-            _________________________________________________________________
+            _____________________________________________
           </p>
           <p className="lead">
             Somos un equipo comprometido con el medio ambiente y creemos en la importancia de educar

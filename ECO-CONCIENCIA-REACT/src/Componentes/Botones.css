@@ -1,19 +1,22 @@
 
-.btn {
-    background-color: #c1bfc1; 
-    color: #cf5555; 
-    border: none;
+.btn-somos {
+    background-color: #d086d0; 
+    color: #eee5e5; 
     margin: 7px 0;
-    font-size: 150px;
+    font-size: 20px;
     cursor: pointer;
+}
+
+
     
-} 
+
 .btn-group-vertical {
     background-color: #efabe4; 
     padding: 10px;
     border-radius: 20px;
     flex-direction: column; 
     top: 130px;
+    
     
       
 }
