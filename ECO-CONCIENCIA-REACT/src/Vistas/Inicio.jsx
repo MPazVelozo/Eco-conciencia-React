@@ -9,6 +9,7 @@ import v497_130 from '../assets/v497_130.png'
 import Botones from '../Componentes/Botones'
 import Ecoconciencia from '../Componentes/Ecoconciencia'
 import Logo from '../Componentes/Logo'
+import BotonSyR from '../Componentes/BotonSyR'
 
 
 function Inicio() {
@@ -25,6 +26,7 @@ function Inicio() {
         <Card  to="/Videos" button="VIDEOS" imagen={v78_115}/>
         <Card  to="/Cuentos" button="CUENTOS" imagen={v489_3}/>
         <Card to="/Canciones" button="CANCIONES" imagen={v497_130}/>
+        <BotonSyR />
     </div>
     </div>
   )
