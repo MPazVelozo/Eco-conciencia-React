@@ -1,6 +1,6 @@
 body {
-    background-image: url('assets/images/v223_7.png');
-    background-size: cover;
+  background-image: url("../assets/fondo.png");
+  background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -14,10 +14,10 @@ h2 {
     text-align: center;
 }
 body {
-    background-image: url('assets/images/v223_7.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("../assets/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
     background-position: center;
   }
 

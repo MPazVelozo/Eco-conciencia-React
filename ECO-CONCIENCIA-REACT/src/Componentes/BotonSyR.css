@@ -1,0 +1,8 @@
+.btn.btn-primary {
+    background-color: #7e416c; /* Cambia el color de fondo */
+    color: #ffffff; /* Cambia el color del texto */
+    border-color: #f478d5; /* Cambia el color del borde si es necesario */
+    margin:10px;
+    margin-left: 900px;
+    
+}
