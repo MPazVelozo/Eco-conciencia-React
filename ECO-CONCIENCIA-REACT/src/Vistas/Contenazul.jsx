@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './Contenazul.css'
-import ninos from '../assets/niños.png'
-import Nino from '../Componentes/Nino'
+
 import Arco from '../Componentes/Arco'
 import arco from '../assets/arco.png'
 import Papel from '../Componentes/Papel'
@@ -17,7 +16,6 @@ function App() {
       <Papel imagen={papel} />
      <Arco imagen={arco} />
      
-    {/* <Nino imagen={ninos} />    */}
     </div>
   )
 }
