@@ -6,7 +6,11 @@
     margin-top: -60px;
     margin-right: 50px;
     font-family: Georgia, serif;  
-    
+    color: rgb(117, 123, 117); /* Color base del texto */
+    transition: color 0.3s;
+}
+#negro:hover{
+    color: black
 }
 .contenedor-imagen-negro {
     position: relative; 

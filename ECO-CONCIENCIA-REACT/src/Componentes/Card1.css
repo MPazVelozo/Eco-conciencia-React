@@ -17,15 +17,16 @@ card {
     text-align: justify;
       
 }
-.btn-link{
-    padding: 10px;
+.btn-link1{
+    padding: 2px;
     margin: 10px;
     background-color: #82c5e4; 
     color: #fbf1f1; 
-    border-radius: 15px;    
+    border-radius: 10px;    
     border: none;           
     font-weight: bold;
     text-decoration: none;  
+    font-size: 20px;
 
 } 
 

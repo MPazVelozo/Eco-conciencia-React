@@ -1,23 +1,11 @@
-h2 {
-    font-family: cursive;
-    text-align: center;
+#lista {
+    font-size: 20px;
+    color: rgb(125, 55, 117);
+font-family: cursive
 }
-p {
-    font-family: cursive;
-    text-align: center;
-}
+#recl {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
 
-.Respuestas-container {
-    width: 700px;
-    height: auto;
-    margin: 0 auto;
-    text-align: center;
-    
 }
-.Formulario.container {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgba(255, 208, 208, 0)
-}
+  

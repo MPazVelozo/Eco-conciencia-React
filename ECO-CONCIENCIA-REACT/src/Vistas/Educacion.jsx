@@ -37,9 +37,11 @@ function Educacion() {
         <Contenedores color={gris} to={"/Contennegro"}/>
         <Contenedores color={amarillo} to={"/Contenamarillo"} />
         <Contenedores color={azul1} to={"/Contenazul"} />
-        <Footer />
+        </div>
+        <div className="calificacion">
+          <Footer />
+          </div>
       </div>
-    </div>
   );
 }
 

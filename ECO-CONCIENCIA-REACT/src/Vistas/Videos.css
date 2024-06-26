@@ -60,3 +60,14 @@
   margin:30px;
   margin-top: 30px;
 }
+
+.footerv{
+    width: 100%;
+    box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho total */
+    text-align: center; /* Centra el texto dentro del botón */
+    color: rgb(23, 21, 21); /* Color del texto */
+    border: none; /* Quita el borde */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de fuente */
+}
+

@@ -9,8 +9,13 @@
     margin-left: 600px;
     text-align: justify;  
     font-family: Georgia, serif;
+    color: rgb(27, 30, 27); /* Color base del texto */
+    transition: color 0.3s;
 }
 
+#azul:hover {
+        color: rgb(122, 152, 191)
+    }
 .texto-encimaa {
     position: absolute; 
     top: 0; 

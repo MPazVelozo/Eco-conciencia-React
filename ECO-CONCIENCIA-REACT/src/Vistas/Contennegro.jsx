@@ -17,6 +17,7 @@ function App() {
     < Organico imagen={organico} />
     <Borde imagen={borde} />
     
+
     
 
       </div>

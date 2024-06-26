@@ -1,5 +1,38 @@
 
-label {
-    font-family: cursive;
-    text-align: justify
+
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-right: 290px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .btn-primary2{
+    margin-right: 5px;
+    background-color: rgb(188, 127, 201);
+    color: #f5f4f4;
+    margin-top: 15px;
+
 }
+  .form-group input,
+  .form-group textarea {
+    width: 50%;
+    font-size: 1rem;
+    margin-left: 165px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  .form-group button {
+    border-radius: 0.25rem;
+  }
+  
+  form-group button:hover {
+    background-color: #0056b3;
+  }
+  

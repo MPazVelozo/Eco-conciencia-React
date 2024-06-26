@@ -22,7 +22,7 @@ const ReclamosList = () => {
   return (
     <div className='Respuestas-container'>
       <h2>_______________________________</h2>
-      <h2>Lista de Reclamos y sugerencias</h2>
+      <div id="lista">Lista de Reclamos y sugerencias</div>
       
       <div className='Formulario.container'>
         
@@ -30,9 +30,10 @@ const ReclamosList = () => {
           {reclamos.map((reclamo) => (
             <li key={reclamo._id}>
               <h2>______________________</h2>
-              <p>Nombre: {reclamo.nombre}</p>
-              <p>Email:{reclamo.email}</p>
-              <p>Mensaje: {reclamo.mensaje}</p>
+              <div id="recl">
+              Nombre: {reclamo.nombre} </div>
+              <div id="recl"> Email:{reclamo.email}</div>
+              <div id="recl">Mensaje: {reclamo.mensaje}</div>
               <h2>______________________</h2>
             </li>
           ))}

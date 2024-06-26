@@ -6,11 +6,12 @@
     margin-top: -60px;
     margin-right: 50px;
     font-family: Georgia, serif;
-
-
+    color: rgb(27, 30, 27); /* Color base del texto */
+    transition: color 0.3s;
     
-    
-    
+}
+#amarillo:hover{
+    color: rgb(173, 173, 71);
 }
 .contenedor-imagen-amarillo {
     position: relative; 

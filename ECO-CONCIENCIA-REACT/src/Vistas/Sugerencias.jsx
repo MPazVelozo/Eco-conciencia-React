@@ -10,7 +10,9 @@ import Boton from '../Componentes/Boton';
 const App = () => {
   return (
     <div>
+      <div className="sug">
       <Boton />
+      </div>
       <div className='ReclammosYSugerencias-container'>
         <h1>______________________</h1>
         <h1>Reclamos y Sugerencias</h1>

@@ -26,5 +26,10 @@ body {
     height: auto;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(243, 235, 235, 0.8) 
-}
+    background-color: rgba(243, 235, 235, 0.8);
+    box-sizing: border-box; 
+  }
+  .sug{
+    margin: 30px;
+    margin-left: 50px;
+  }

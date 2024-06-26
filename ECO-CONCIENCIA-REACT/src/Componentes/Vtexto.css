@@ -6,9 +6,12 @@
     margin-top: -230px;
     margin-right: 40px;
     font-family: Georgia, serif;
+    color: rgb(27, 30, 27); /* Color base del texto */
+    transition: color 0.3s;
 
-
-    
+}
+    #verde:hover {
+        color: rgb(40, 135, 40)
     
     
 }
