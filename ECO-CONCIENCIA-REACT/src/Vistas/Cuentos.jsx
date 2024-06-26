@@ -6,7 +6,7 @@
 import Container1 from '../Componentes/Container1'
 import Boton from '../Componentes/Boton'
 import './Cuentos.css'
-
+import Footer from '../Componentes/Footer'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Boton />
       </div>
     <Container1 />
-    
+    <Footer />
     </div>
   )
 }

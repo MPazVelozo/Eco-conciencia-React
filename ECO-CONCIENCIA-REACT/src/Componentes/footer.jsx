@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import './footer.css'
+import './Footer.css'
 
-const FooterRating = () => {
+const Footer = () => {
   const [rating, setRating] = useState(null);
   const [message, setMessage] = useState('');
 
@@ -34,4 +34,4 @@ const FooterRating = () => {
   );
 };
 
-export default FooterRating;
+export default Footer;

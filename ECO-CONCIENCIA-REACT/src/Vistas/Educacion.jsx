@@ -13,6 +13,7 @@ import azul1 from '../assets/azul1.png';
 import Boton from '../Componentes/Boton';
 import ReactPlayer from 'react-player';
 import './Educacion.css';
+import Footer from '../Componentes/Footer'
 
 function Educacion() {
   const vidUrl = "https://www.youtube.com/watch?v=-UFFFUTMlCw";
@@ -36,6 +37,7 @@ function Educacion() {
         <Contenedores color={gris} to={"/Contennegro"}/>
         <Contenedores color={amarillo} to={"/Contenamarillo"} />
         <Contenedores color={azul1} to={"/Contenazul"} />
+        <Footer />
       </div>
     </div>
   );
