@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import Card from "../Componentes/Cardcanciones";
 import "./Canciones.css";
 import Boton from "../Componentes/Boton";
-import Footer from "../Componentes/Footer";
+import Calidad from "../Componentes/Calidad";
 
 const Canciones = () => {
   const canciones = [
@@ -35,35 +35,33 @@ const Canciones = () => {
 
   return (
     <div>
-    <div className="container2-lg">
-      <div className="Boton-inicioo">
-        <Boton />
+      <div className="container2-lg">
+        <div className="Boton-inicioo">
+          <Boton />
+        </div>
+        <h1 className="titulo-cancion">CANCIONES</h1>
+        <div id="can">
+          ¡Canta y cuida el planeta con nuestras canciones del medio ambiente!
+        </div>
+        <div className="canciones-container">
+          {canciones.map((cancion, index) => (
+            <div className="cancion" key={index}>
+              <ReactPlayer
+                url={cancion.videoUrl}
+                playing={false} // Puedes ajustar esta propiedad según tus necesidades
+                volume={0.5}
+                width="100%"
+                height="100%"
+              />
+              <h2>{cancion.title}</h2>
+            </div>
+          ))}
+          <button type="button" className="btn btn-dark">
+            ¡Disfruta de nuestras canciones educativas
+          </button>
+        </div>
       </div>
-      <h1 className="titulo-cancion">CANCIONES</h1>
-      <div id="can">
-        ¡Canta y cuida el planeta con nuestras canciones del medio ambiente!
-      </div>
-      <div className="canciones-container">
-        {canciones.map((cancion, index) => (
-          <div className="cancion" key={index}>
-            <ReactPlayer
-              url={cancion.videoUrl}
-              playing={false} // Puedes ajustar esta propiedad según tus necesidades
-              volume={0.5}
-              width="100%"
-              height="100%"
-            />
-            <h2>{cancion.title}</h2>
-          </div>
-        ))}
-        <button type="button" className="btn btn-dark">
-          ¡Disfruta de nuestras canciones educativas
-        </button>
-      </div>
-    
-      </div>
-      <Footer />
-
+      <Calidad />
     </div>
   );
 };

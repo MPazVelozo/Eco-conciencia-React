@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Footer.css'
+import './Calidad.css'
 
-const Footer = () => {
+const Calidad = () => {
   const [rating, setRating] = useState(null);
   const [message, setMessage] = useState('');
 
@@ -34,4 +34,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Calidad;

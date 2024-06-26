@@ -5,7 +5,7 @@ import { data2 } from "../assets/imagenes-slider/data2";
 import ReactPlayer from "react-player";
 import Boton from "../Componentes/Boton";
 import "./Aprendizaje.css";
-import Footer from "../Componentes/Footer";
+import Calidad from "../Componentes/Calidad";
 
 const vidUrl1 = "https://www.youtube.com/watch?v=E6TA-LdyUjA";
 const vidUrl2 = "https://www.youtube.com/watch?v=yc_HsLrl6lY";
@@ -65,8 +65,7 @@ export const Aprendizaje = () => {
 
   const CardWithImages = ({ image1, image2 }) => {
     return (
-      
-        <div className="carduwu">
+      <div className="carduwu">
         <div className="images-container">
           <img src={image1} alt="Imagen 1" className="card-images" />
           <img src={image2} alt="Imagen 2" className="card-images" />
@@ -229,28 +228,17 @@ export const Aprendizaje = () => {
                 controls
               />
             </div>
-            <div>
-            
-
-            </div>
-            
+            <div></div>
           </div>
-          
-        <div>
-      </div>
-      
-      </div>
-      
+
+          <div></div>
+        </div>
       </div>
       <div className="Footer">
-            <Footer />
-        </div>
-      </>
+        <Calidad />
+      </div>
+    </>
   );
 };
 
 export default Aprendizaje;
-
-
-
-
