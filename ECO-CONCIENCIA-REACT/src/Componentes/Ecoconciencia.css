@@ -3,10 +3,26 @@
 background-position: center;
 left: 330px;
 position: absolute;
-top: 70px
-
+top: 70px;
+max-width: 100%;
   
 }
-
-    
+@media only screen and (max-width: 600px) {
+    .centered-image {
+      width: 90%; /* Ajusta el ancho según sea necesario para dispositivos móviles */
+      top: 10px; /* Ajusta la posición si es necesario */
+      left: 0; /* Centrar horizontalmente */
+    }
   
+ 
+  
+  /* Estilos específicos para pantallas más grandes (tabletas y escritorio) */
+  @media only screen and (min-width: 601px) {
+    .centered-image {
+      width: 70%; /* Ajusta el ancho según sea necesario para pantallas más grandes */
+      top: 70px;
+      left: 0; /* Centrar horizontalmente */
+    }
+  }
+    
+}

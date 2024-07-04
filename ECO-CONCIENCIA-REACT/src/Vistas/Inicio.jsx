@@ -17,6 +17,7 @@ function Inicio() {
 
   return (
     <div className="App">
+      <div className="ContendedorCajas">
       <Logo />
       <Botones/>
       <Ecoconciencia />
@@ -27,6 +28,7 @@ function Inicio() {
         <Card  to="/Cuentos" button="CUENTOS" imagen={v489_3}/>
         <Card to="/Canciones" button="CANCIONES" imagen={v497_130}/>
         <BotonSyR />
+    </div>
     </div>
     </div>
   )
