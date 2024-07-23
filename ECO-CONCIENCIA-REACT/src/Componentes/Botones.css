@@ -31,4 +31,23 @@
       
 }
   
+@media only screen and (max-width: 600px) {
+    .btn-somos {
+      width: 100%; /* Hacer que los botones ocupen todo el ancho disponible */
+      font-size: 16px; /* Ajustar el tamaño de la fuente si es necesario */
+      height: 50px; /* Ajustar la altura si es necesario */
+    }
+  
+    .btn-group-vertical {
+      width: 30%; /* Asegurar que el contenedor también ocupe todo el ancho disponible */
+      padding: 0 10px; /* Agregar algo de padding para evitar que los botones toquen los bordes de la pantalla */
+    }
+  }
+  
+  /* Estilos para pantallas más grandes (tabletas y escritorio) */
+  @media only screen and (min-width: 601px) {
+    .btn-somos {
+      width: 150px; /* Mantener el ancho fijo en pantallas más grandes */
+    }
+  }
  
